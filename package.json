@@ -1,0 +1,34 @@
+{
+  "name": "export-code-pdf-cli",
+  "version": "1.0.0",
+  "description": "CLI to export code files matching a regex pattern into a single PDF",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarrec-vivlio/export-code-pdf-cli"
+  },
+  "author": "Alexandre-g <garrec.alexandre@gmail.com> (https://github.com/agarrec-vivlio)",
+  "bin": {
+    "export-code-pdf-cli": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "release": "release-it"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.0",
+    "ora": "^6.0.0",
+    "puppeteer": "^10.0.0"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+    "github": {
+      "release": true
+    }
+  },
+  "devDependencies": {
+    "release-it": "^17.6.0"
+  }
+}

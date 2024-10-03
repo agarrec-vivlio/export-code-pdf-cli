@@ -1,6 +1,8 @@
 
 # 🚀 export-code-pdf-cli
 
+![2024-10-03 21 44 53](https://github.com/user-attachments/assets/5423142a-aa33-44ab-939b-e7c36bf3623b)
+
 ## 📖 Description
 
 CLI to export the content of code files matching a regular expression into a single PDF file. This project leverages Puppeteer to generate the PDF from code files and Ora to display progress spinners while processing.
